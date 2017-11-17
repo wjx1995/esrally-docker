@@ -18,6 +18,6 @@ RUN esrally configure
 
 RUN mkdir /root/.rally/benchmarks
 COPY teams /root/.rally/benchmarks/teams
-RUN cd /root/.rally/benchmarks/teams/default && git init && git add -A && git commit -m"init team"
+#RUN cd /root/.rally/benchmarks/teams/default && git init && git add -A && git commit -m"init team"
 
 WORKDIR /root
